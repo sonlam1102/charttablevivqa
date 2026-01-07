@@ -1,0 +1,171 @@
+{
+  "document_id": "0265",
+  "image_info": {
+    "image_name": "0265.jpg",
+    "caption": "Diện tích một số cây công nghiệp lâu năm của nước ta, giai đoạn 2018 - 2021"
+  },
+  "columns": ["Năm", "2018", "2019", "2020", "2021"],
+  "rows": [
+    {"Năm": "Điều", "2018": "299,5", "2019": "295,0", "2020": "302,4", "2021": "314,4"},
+    {"Năm": "Cao su", "2018": "961,8", "2019": "941,3", "2020": "932,4", "2021": "930,5"}
+  ],
+  "metadata": {
+    "Đơn vị": "Diện tích (Nghìn ha)"
+  },
+  "qa": [
+    {"qa_id": "q1", "question": "Bảng trên thể hiện nội dung gì?", "answer": "Bảng trên thể hiện diện tích một số cây công nghiệp lâu năm của nước ta, giai đoạn 2018 - 2021.", "instruction": "Cho bảng số liệu về diện tích một số cây công nghiệp lâu năm của nước ta, giai đoạn 2018 - 2021."},
+    {"qa_id": "q2", "question": "Diện tích cây Điều vào năm 2020 là bao nhiêu nghìn ha?", "answer": "302,4 nghìn ha.", "instruction": "Lấy giá trị tại cột '2020', hàng 'Điều': 302,4."},
+    {"qa_id": "q3", "question": "Diện tích cây Cao su năm 2018 đạt bao nhiêu nghìn ha?", "answer": "961,8 nghìn ha.", "instruction": "Lấy giá trị tại cột '2018', hàng 'Cao su': 961,8."},
+    {"qa_id": "q4", "question": "Cây Điều có diện tích là bao nhiêu nghìn ha vào năm 2019?", "answer": "295,0 nghìn ha.", "instruction": "Lấy giá trị tại cột '2019', hàng 'Điều': 295,0."},
+    {"qa_id": "q5", "question": "So sánh diện tích cây Điều năm 2021 và năm 2020, năm nào cao hơn?", "answer": "Năm 2021 cao hơn năm 2020 là 12,0 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Điều', cột '2021' là 314,4 và cột '2020' là 302,4: 314,4 > 302,4, 314,4 - 302,4 = 12,0 (Cao hơn)."},
+    {"qa_id": "q6", "question": "Diện tích cây Cao su năm 2021 có thấp hơn so với năm 2018 không?", "answer": "Có, thấp hơn 31,3 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Cao su', cột '2021' là 930,5 và cột '2018' là 961,8: 930,5 < 961,8, 961,8 - 930,5 = 31,3 (Thấp hơn)."},
+    {"qa_id": "q7", "question": "Diện tích cây Điều năm 2021 tăng hay giảm bao nhiêu nghìn ha so với năm 2019?", "answer": "Tăng 19,4 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Điều', cột '2021' là 314,4 và cột '2019' là 295,0: 314,4 > 295,0, 314,4 - 295,0 = 19,4 (Tăng)."},
+    {"qa_id": "q8", "question": "Diện tích cây Điều năm 2021 tăng hay giảm bao nhiêu phần trăm so với năm 2018?", "answer": "Tăng 5,0%.", "instruction": "Tính phần trăm thay đổi tại hàng 'Điều', giữa cột '2021' là 314,4 và '2018' là 299,5: [(314,4 - 299,5) / 299,5] * 100 ≈ 5,0 (Tăng)."},
+    {"qa_id": "q9", "question": "Diện tích cây Cao su năm 2021 tăng hay giảm bao nhiêu phần trăm so với năm 2018?", "answer": "Giảm 3,3%.", "instruction": "Tính phần trăm thay đổi tại hàng 'Cao su', giữa cột '2021' là 930,5 và '2018' là 961,8: [(930,5 - 961,8) / 961,8] * 100 ≈ -3,3 (Giảm)."},
+    {"qa_id": "q10", "question": "Tổng diện tích cây Điều và Cao su trong năm 2018 là bao nhiêu nghìn ha?", "answer": "1261,3 nghìn ha.", "instruction": "Cộng giá trị tại cột '2018', hàng 'Điều' là 299,5 và hàng 'Cao su' là 961,8: 299,5 + 961,8 = 1261,3."},
+    {"qa_id": "q11", "question": "Tổng diện tích cây Điều và Cao su trong năm 2021 là bao nhiêu nghìn ha?", "answer": "1244,9 nghìn ha.", "instruction": "Cộng giá trị tại cột '2021', hàng 'Điều' là 314,4 và hàng 'Cao su' là 930,5: 314,4 + 930,5 = 1244,9."},
+    {"qa_id": "q12", "question": "Diện tích cây Cao su năm 2020 tăng hay giảm bao nhiêu nghìn ha so với năm 2019?", "answer": "Giảm 8,9 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Cao su', cột '2020' là 932,4 và cột '2019' là 941,3: 932,4 < 941,3, 941,3 - 932,4 = 8,9 (Giảm)."},
+    {"qa_id": "q13", "question": "Chênh lệch diện tích cây Điều giữa năm 2021 và năm 2019 là bao nhiêu nghìn ha?", "answer": "19,4 nghìn ha.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Điều' tại cột '2021' là 314,4 và '2019' là 295,0: |314,4 - 295,0| = 19,4."},
+    {"qa_id": "q14", "question": "Tổng diện tích cây Điều và Cao su trong năm 2019 là bao nhiêu nghìn ha?", "answer": "1236,3 nghìn ha.", "instruction": "Cộng giá trị tại cột '2019', hàng 'Điều' là 295,0 và hàng 'Cao su' là 941,3: 295,0 + 941,3 = 1236,3."},
+    {"qa_id": "q15", "question": "Diện tích cây Điều năm 2020 so với năm 2019 tăng hay giảm bao nhiêu phần trăm?", "answer": "Tăng 2,5%.", "instruction": "Tính phần trăm thay đổi tại hàng 'Điều', giữa cột '2020' là 302,4 và '2019' là 295,0: [(302,4 - 295,0) / 295,0] * 100 ≈ 2,5 (Tăng)."}
+  ]
+}
+{
+  "document_id": "0272",
+  "image_info": {
+    "image_name": "0272.jpg",
+    "caption": "Diện tích các loại cây trồng phân theo nhóm cây của nước ta, giai đoạn 2018 - 2021"
+  },
+  "columns": ["Năm", "2018", "2019", "2020", "2021"],
+  "rows": [
+    {"Năm": "Tổng số", "2018": "14768,5", "2019": "14703,0", "2020": "14487,4", "2021": "14441,7"},
+    {"Năm": "Diện tích gieo trồng cây hàng năm", "2018": "11271,7", "2019": "11156,8", "2020": "10871,1", "2021": "10756,9"},
+    {"Năm": "Diện tích hiện có cây lâu năm", "2018": "3496,8", "2019": "3546,2", "2020": "3616,3", "2021": "3684,8"}
+  ],
+  "metadata": {
+    "Đơn vị": "Diện tích (Nghìn ha)"
+  },
+  "qa": [
+    {"qa_id": "q1", "question": "Bảng trên thể hiện nội dung gì?", "answer": "Bảng trên thể hiện diện tích các loại cây trồng phân theo nhóm cây của nước ta, giai đoạn 2018 - 2021.", "instruction": "Cho bảng số liệu về diện tích các loại cây trồng phân theo nhóm cây của nước ta, giai đoạn 2018 - 2021."},
+    {"qa_id": "q2", "question": "Tổng diện tích năm 2018 là bao nhiêu nghìn ha?", "answer": "14768,5 nghìn ha.", "instruction": "Lấy giá trị tại cột '2018', hàng 'Tổng số' là 14768,5."},
+    {"qa_id": "q3", "question": "Diện tích gieo trồng cây hàng năm năm 2020 là bao nhiêu nghìn ha?", "answer": "10871,1 nghìn ha.", "instruction": "Lấy giá trị tại cột '2020', hàng 'Diện tích gieo trồng cây hàng năm' là 10871,1."},
+    {"qa_id": "q4", "question": "Diện tích hiện có cây lâu năm năm 2021 là bao nhiêu nghìn ha?", "answer": "3684,8 nghìn ha.", "instruction": "Lấy giá trị tại cột '2021', hàng 'Diện tích hiện có cây lâu năm' là 3684,8."},
+    {"qa_id": "q5", "question": "Diện tích gieo trồng cây hàng năm năm 2021 có thấp hơn năm 2020 không?", "answer": "Có, thấp hơn 114,2 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Diện tích gieo trồng cây hàng năm', cột '2021' là 10756,9 và cột '2020' là 10871,1: 10756,9 < 10871,1, 10871,1 - 10756,9 = 114,2 (Thấp hơn)."},
+    {"qa_id": "q6", "question": "Diện tích hiện có cây lâu năm năm 2020 tăng hay giảm bao nhiêu nghìn ha so với năm 2019?", "answer": "Tăng 70,1 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Diện tích hiện có cây lâu năm', cột '2020' là 3616,3 và cột '2019' là 3546,2: 3616,3 > 3546,2, 3616,3 - 3546,2 = 70,1 (Tăng)."},
+    {"qa_id": "q7", "question": "Tổng diện tích gieo trồng cây hàng năm và diện tích hiện có cây lâu năm trong năm 2021 là bao nhiêu nghìn ha?", "answer": "14441,7 nghìn ha.", "instruction": "Cộng giá trị của 'Diện tích gieo trồng cây hàng năm' và 'Diện tích hiện có cây lâu năm' tại cột '2021': 10756,9 + 3684,8 = 14441,7."},
+    {"qa_id": "q8", "question": "Tổng diện tích gieo trồng cây hàng năm và diện tích hiện có cây lâu năm trong năm 2019 là bao nhiêu nghìn ha?", "answer": "14703,0 nghìn ha.", "instruction": "Cộng giá trị của 'Diện tích gieo trồng cây hàng năm' và 'Diện tích hiện có cây lâu năm' tại cột '2019': 11156,8 + 3546,2 = 14703,0."},
+    {"qa_id": "q9", "question": "Tổng diện tích của cả nước năm 2021 tăng hay giảm bao nhiêu phần trăm so với năm 2018?", "answer": "Giảm 2,2%.", "instruction": "Tính phần trăm thay đổi tại hàng 'Tổng số', giữa cột '2021' là 14441,7 và '2018' là 14768,5: [(14441,7 - 14768,5) / 14768,5] * 100 ≈ -2,2 (Giảm)."},
+    {"qa_id": "q10", "question": "Diện tích gieo trồng cây hàng năm năm 2021 giảm bao nhiêu phần trăm so với năm 2018?", "answer": "Giảm 4,5%.", "instruction": "Tính phần trăm thay đổi tại hàng 'Diện tích gieo trồng cây hàng năm', giữa cột '2021' là 10756,9 và '2018' là 11271,7: [(10756,9 - 11271,7) / 11271,7] * 100 ≈ -4,5 (Giảm)."},
+    {"qa_id": "q11", "question": "Chênh lệch tổng diện tích giữa năm 2021 và 2020 là bao nhiêu nghìn ha?", "answer": "45,7 nghìn ha.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Tổng số' tại cột '2021' là 14441,7 và '2020' là 14487,4: |14441,7 - 14487,4| = 45,7."},
+    {"qa_id": "q12", "question": "Chênh lệch diện tích gieo trồng cây hàng năm giữa năm 2021 và 2020 là bao nhiêu nghìn ha?", "answer": "114,2 nghìn ha.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Diện tích gieo trồng cây hàng năm' tại cột '2021' là 10756,9 và '2020' là 10871,1: |10756,9 - 10871,1| = 114,2."},
+    {"qa_id": "q13", "question": "Chênh lệch diện tích hiện có cây lâu năm giữa năm 2021 và 2019 là bao nhiêu nghìn ha?", "answer": "138,6 nghìn ha.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Diện tích hiện có cây lâu năm' tại cột '2021' là 3684,8 và '2019' là 3546,2: |3684,8 - 3546,2| = 138,6."},
+    {"qa_id": "q14", "question": "Diện tích gieo trồng cây hàng năm năm 2021 tăng hay giảm bao nhiêu phần trăm so với năm 2020?", "answer": "Giảm 1,0%.", "instruction": "Tính phần trăm thay đổi tại hàng 'Diện tích gieo trồng cây hàng năm', giữa cột '2021' là 10756,9 và '2020' là 10871,1: [(10756,9 - 10871,1) / 10871,1] * 100 ≈ -1,0 (Giảm)."},
+    {"qa_id": "q15", "question": "Diện tích hiện có cây lâu năm năm 2021 tăng hay giảm bao nhiêu phần trăm so với năm 2020?", "answer": "Tăng 1,9%.", "instruction": "Tính phần trăm thay đổi tại hàng 'Diện tích hiện có cây lâu năm', giữa cột '2021' là 3684,8 và '2020' là 3616,3: [(3684,8 - 3616,3) / 3616,3] * 100 ≈ 1,9 (Tăng)."},
+    {"qa_id": "q16", "question": "Chênh lệch diện tích tổng số giữa năm 2021 và 2019 là bao nhiêu nghìn ha?", "answer": "261,3 nghìn ha.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Tổng số' tại cột '2021' là 14441,7 và '2019' là 14703,0: |14441,7 - 14703,0| = 261,3."}
+  ]
+}
+{
+ "document_id": "0277",
+ "image_info": {
+  "image_name": "0277.jpg",
+  "caption": "Trị giá một số mặt hàng nhập khẩu của nước ta giai đoạn 2018 - 2021"
+ },
+ "columns": ["Năm", "2018", "2019", "2020", "2021"],
+ "rows": [
+  {"Năm": "Ô tô", "2018": "1834,8", "2019": "3168,8", "2020": "2335,3", "2021": "3650,0"},
+  {"Năm": "Xăng, dầu", "2018": "7875,9", "2019": "6344,0", "2020": "3417,1", "2021": "4104,7"}
+ ],
+ "metadata": {
+  "Đơn vị": "Giá trị (Triệu đô la Mỹ)"
+ },
+ "qa": [
+  {"qa_id": "q1", "question": "Bảng trên thể hiện nội dung gì?", "answer": "Bảng trên thể hiện trị giá một số mặt hàng nhập khẩu của nước ta giai đoạn 2018 - 2021.", "instruction": "Cho bảng số liệu trị giá một số mặt hàng nhập khẩu của nước ta giai đoạn 2018 - 2021."},
+  {"qa_id": "q2", "question": "Trị giá nhập khẩu ô tô của nước ta trong năm 2019 là bao nhiêu triệu đô la Mỹ?", "answer": "3168,8 triệu đô la Mỹ.", "instruction": "Tìm giá trị tại cột '2019', hàng 'Ô tô' là 3168,8."},
+  {"qa_id": "q3", "question": "Năm 2020, trị giá nhập khẩu xăng, dầu là bao nhiêu triệu đô la Mỹ?", "answer": "3417,1 triệu đô la Mỹ.", "instruction": "Tìm giá trị tại cột '2020', hàng 'Xăng, dầu' là 3417,1."},
+  {"qa_id": "q4", "question": "Trị giá nhập khẩu xăng, dầu của nước ta năm 2021 tăng hay giảm bao nhiêu triệu đô la Mỹ so với năm 2020?", "answer": "Tăng 687,6 triệu đô la Mỹ.", "instruction": "So sánh giá trị tại hàng 'Xăng, dầu', cột '2021' là 4104,7 và cột '2020' là 3417,1: 4104,7 > 3417,1, 4104,7 - 3417,1 = 687,6 (Tăng)."},
+  {"qa_id": "q5", "question": "Trị giá nhập khẩu ô tô năm 2020 giảm bao nhiêu triệu đô la Mỹ so với năm 2019?", "answer": "Giảm 833,5 triệu đô la Mỹ.", "instruction": "So sánh giá trị tại hàng 'Ô tô', cột '2020' là 2335,3 và cột '2019' là 3168,8: 2335,3 < 3168,8, 3168,8 - 2335,3 = 833,5 (Giảm)."},
+  {"qa_id": "q6", "question": "Tổng trị giá nhập khẩu ô tô của nước ta trong giai đoạn 2018-2021 là bao nhiêu triệu đô la Mỹ?", "answer": "10988,9 triệu đô la Mỹ.", "instruction": "Cộng các giá trị tại hàng 'Ô tô' các cột từ '2018' đến '2021': 1834,8 + 3168,8 + 2335,3 + 3650,0 = 10988,9."},
+  {"qa_id": "q7", "question": "Trị giá nhập khẩu xăng, dầu trung bình của nước ta trong giai đoạn 2018-2021 là bao nhiêu triệu đô la Mỹ?", "answer": "5435,425 triệu đô la Mỹ.", "instruction": "Tính trung bình giá trị tại hàng 'Xăng, dầu' các cột '2018', '2019', '2020', '2021': (7875,9 + 6344,0 + 3417,1 + 4104,7) / 4 = 5435,425."},
+  {"qa_id": "q8", "question": "Tổng trị giá nhập khẩu xăng, dầu của nước ta trong hai năm 2019 và 2020 là bao nhiêu triệu đô la Mỹ?", "answer": "9761,1 triệu đô la Mỹ.", "instruction": "Cộng giá trị tại hàng 'Xăng, dầu', cột '2019' là 6344,0 và cột '2020' là 3417,1: 6344,0 + 3417,1 = 9761,1."},
+  {"qa_id": "q9", "question": "Chênh lệch trị giá nhập khẩu ô tô giữa năm 2021 và 2019 là bao nhiêu triệu đô la Mỹ?", "answer": "481,2 triệu đô la Mỹ.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Ô tô' tại cột '2021' là 3650,0 và '2019' là 3168,8: |3650,0 - 3168,8| = 481,2."},
+  {"qa_id": "q10", "question": "Trị giá nhập khẩu ô tô năm 2021 cao hơn hay thấp hơn năm 2020 bao nhiêu triệu đô la Mỹ?", "answer": "Cao hơn 1314,7 triệu đô la Mỹ.", "instruction": "So sánh giá trị tại hàng 'Ô tô', cột '2021' là 3650,0 và cột '2020' là 2335,3: 3650,0 > 2335,3, 3650,0 - 2335,3 = 1314,7 (Cao hơn)."},
+  {"qa_id": "q11", "question": "Trị giá nhập khẩu xăng, dầu năm 2019 cao hơn hay thấp hơn năm 2018 bao nhiêu triệu đô la Mỹ?", "answer": "Thấp hơn 1531,9 triệu đô la Mỹ.", "instruction": "So sánh giá trị tại hàng 'Xăng, dầu', cột '2019' là 6344,0 và cột '2018' là 7875,9: 6344,0 < 7875,9, 7875,9 - 6344,0 = 1531,9 (Thấp hơn)."},
+  {"qa_id": "q12", "question": "Trị giá nhập khẩu ô tô của nước ta năm 2021 tăng hay giảm bao nhiêu phần trăm so với năm 2018?", "answer": "Tăng 99,09%.", "instruction": "Tính phần trăm thay đổi trị giá ô tô giữa năm 2021 và 2018: [(3650,0 - 1834,8) / 1834,8] * 100 ≈ 99,09 (Tăng)."},
+  {"qa_id": "q13", "question": "Trị giá nhập khẩu xăng, dầu năm 2020 tăng hay giảm bao nhiêu phần trăm so với năm 2019?", "answer": "Giảm 46,13%.", "instruction": "Tính phần trăm thay đổi trị giá xăng, dầu giữa năm 2020 và 2019: [(3417,1 - 6344,0) / 6344,0] * 100 ≈ -46,13 (Giảm)."},
+  {"qa_id": "q14", "question": "Trị giá nhập khẩu ô tô năm 2020 thấp hơn năm 2019 bao nhiêu triệu đô la Mỹ?", "answer": "833,5 triệu đô la Mỹ.", "instruction": "So sánh giá trị tại hàng 'Ô tô', cột '2020' là 2335,3 và '2019' là 3168,8: 2335,3 < 3168,8, 3168,8 - 2335,3 = 833,5 (Thấp hơn)."},
+  {"qa_id": "q15", "question": "Trị giá nhập khẩu xăng, dầu năm 2018 cao hơn hay thấp hơn năm 2021 bao nhiêu triệu đô la Mỹ?", "answer": "Cao hơn 3771,2 triệu đô la Mỹ.", "instruction": "So sánh giá trị tại hàng 'Xăng, dầu', cột '2018' là 7875,9 và cột '2021' là 4104,7: 7875,9 > 4104,7, 7875,9 - 4104,7 = 3771,2 (Cao hơn)."},
+  {"qa_id": "q16", "question": "Tổng trị giá nhập khẩu ô tô và xăng, dầu của nước ta trong năm 2021 là bao nhiêu triệu đô la Mỹ?", "answer": "7754,7 triệu đô la Mỹ.", "instruction": "Cộng giá trị của 'Ô tô' và 'Xăng, dầu' tại cột '2021': 3650,0 + 4104,7 = 7754,7."}
+ ]
+}
+{
+  "document_id": "0279",
+  "image_info": {
+    "image_name": "0279.jpg",
+    "caption": "Diện tích và sản lượng chè của nước ta, giai đoạn 2015 - 2021"
+  },
+  "columns": ["Năm", "2015", "2017", "2019", "2020", "2021"],
+  "rows": [
+    {"Năm": "Diện tích (nghìn ha)", "2015": "133,6", "2017": "129,3", "2019": "123,3", "2020": "123,6", "2021": "122,6"},
+    {"Năm": "Sản lượng (nghìn tấn)", "2015": "967,8", "2017": "975,1", "2019": "1017,6", "2020": "1065", "2021": "1073"}
+  ],
+  "metadata": {
+    "Đơn vị": "Diện tích (nghìn ha), Sản lượng (nghìn tấn)"
+  },
+  "qa": [
+    {"qa_id": "q1", "question": "Bảng trên thể hiện nội dung gì?", "answer": "Bảng trên thể hiện diện tích và sản lượng chè của nước ta, giai đoạn 2015 - 2021.", "instruction": "Cho bảng số liệu diện tích và sản lượng chè của nước ta, giai đoạn 2015 - 2021."},
+    {"qa_id": "q2", "question": "Năm 2017, diện tích chè là bao nhiêu nghìn ha?", "answer": "129,3 nghìn ha.", "instruction": "Tìm giá trị tại cột '2017', hàng 'Diện tích (nghìn ha)': 129,3."},
+    {"qa_id": "q3", "question": "Năm 2021, sản lượng chè đạt bao nhiêu nghìn tấn?", "answer": "1073 nghìn tấn.", "instruction": "Tìm giá trị tại cột '2021', hàng 'Sản lượng (nghìn tấn)': 1073."},
+    {"qa_id": "q4", "question": "Sản lượng chè vào năm 2019 là bao nhiêu nghìn tấn?", "answer": "1017,6 nghìn tấn.", "instruction": "Tìm giá trị tại cột '2019', hàng 'Sản lượng (nghìn tấn)': 1017,6."},
+    {"qa_id": "q5", "question": "Năm 2021, diện tích chè tăng hay giảm bao nhiêu nghìn ha so với năm 2019?", "answer": "Giảm 0,7 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Diện tích (nghìn ha)', cột '2021' là 122,6 và '2019' là 123,3: 122,6 < 123,3, 123,3 - 122,6 = 0,7 (Giảm)."},
+    {"qa_id": "q6", "question": "Sản lượng chè năm 2021 tăng hay giảm bao nhiêu nghìn tấn so với năm 2020?", "answer": "Tăng 8 nghìn tấn.", "instruction": "So sánh giá trị tại hàng 'Sản lượng (nghìn tấn)', cột '2021' là 1073 và '2020' là 1065: 1073 > 1065, 1073 - 1065 = 8 (Tăng)."},
+    {"qa_id": "q7", "question": "Diện tích chè năm 2015 có cao hơn hay thấp hơn năm 2017?", "answer": "Cao hơn 4,3 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Diện tích (nghìn ha)', cột '2015' là 133,6 và '2017' là 129,3: 133,6 > 129,3, 133,6 - 129,3 = 4,3 (Cao hơn)."},
+    {"qa_id": "q8", "question": "So sánh sản lượng chè giữa năm 2021 và 2020, năm nào có sản lượng cao hơn?", "answer": "Năm 2021, cao hơn 8 nghìn tấn.", "instruction": "So sánh giá trị tại hàng 'Sản lượng (nghìn tấn)', cột '2021' là 1073 và '2020' là 1065: 1073 > 1065, 1073 - 1065 = 8 (Cao hơn)."},
+    {"qa_id": "q9", "question": "Diện tích chè năm 2019 có thấp hơn năm 2020 không?", "answer": "Có, thấp hơn 0,3 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Diện tích (nghìn ha)', cột '2019' là 123,3 và '2020' là 123,6: 123,3 < 123,6, 123,6 - 123,3 = 0,3 (Thấp hơn)."},
+    {"qa_id": "q10", "question": "Chênh lệch diện tích chè giữa năm 2015 và 2021 là bao nhiêu nghìn ha?", "answer": "11 nghìn ha.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Diện tích (nghìn ha)' tại cột '2015' là 133,6 và '2021' là 122,6: |133,6 - 122,6| = 11."},
+    {"qa_id": "q11", "question": "Chênh lệch sản lượng chè giữa năm 2021 và 2015 là bao nhiêu nghìn tấn?", "answer": "105,2 nghìn tấn.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Sản lượng (nghìn tấn)' tại cột '2021' là 1073 và '2015' là 967,8: |1073 - 967,8| = 105,2."},
+    {"qa_id": "q12", "question": "Tổng diện tích chè năm 2015 và 2017 là bao nhiêu nghìn ha?", "answer": "262,9 nghìn ha.", "instruction": "Cộng giá trị tại hàng 'Diện tích (nghìn ha)' năm 2015 và 2017: 133,6 + 129,3 = 262,9."},
+    {"qa_id": "q13", "question": "Tính trung bình sản lượng chè trong các năm 2017, 2019 và 2020 là bao nhiêu nghìn tấn?", "answer": "1019,23 nghìn tấn.", "instruction": "Tính trung bình giá trị tại hàng 'Sản lượng (nghìn tấn)' năm 2017, 2019 và 2020: (975,1 + 1017,6 + 1065) / 3 = 1019,23."},
+    {"qa_id": "q14", "question": "Diện tích chè tăng hay giảm bao nhiêu phần trăm từ năm 2015 đến 2021?", "answer": "Giảm 8,20%.", "instruction": "Tính phần trăm thay đổi diện tích chè giữa năm 2015 và 2021: [(122,6 - 133,6) / 133,6] * 100 ≈ -8,20% (Giảm)."},
+    {"qa_id": "q15", "question": "Sản lượng chè tăng hay giảm bao nhiêu phần trăm từ năm 2017 đến 2021?", "answer": "Tăng 10,02%.", "instruction": "Tính phần trăm thay đổi sản lượng chè giữa năm 2017 và 2021: [(1073 - 975,1) / 975,1] * 100 ≈ 10,02% (Tăng)."},
+    {"qa_id": "q16", "question": "Sản lượng chè năm 2020 tăng hay giảm bao nhiêu phần trăm so với năm 2019?", "answer": "Tăng 4,66%.", "instruction": "Tính phần trăm thay đổi sản lượng chè giữa năm 2020 và 2019: [(1065 - 1017,6) / 1017,6] * 100 ≈ 4,66% (Tăng)."}
+  ]
+}
+{
+  "document_id": "0310",
+  "image_info": {
+    "image_name": "0310.jpg",
+    "caption": "Diện tích lúa ở các vùng của nước ta, năm 2021"
+  },
+  "columns": ["Vùng", "Diện tích"],
+  "rows": [
+    {"Vùng": "Đồng bằng sông Hồng", "Diện tích": "970,3"},
+    {"Vùng": "Trung du và miền núi Bắc Bộ", "Diện tích": "662,2"},
+    {"Vùng": "Bắc Trung Bộ và Duyên hải Nam Trung Bộ", "Diện tích": "1198,7"},
+    {"Vùng": "Tây Nguyên", "Diện tích": "250,2"},
+    {"Vùng": "Đông Nam Bộ", "Diện tích": "258,9"},
+    {"Vùng": "Đồng bằng sông Cửu Long", "Diện tích": "3898,6"}
+  ],
+  "metadata": {
+    "Đơn vị": "Diện tích (Nghìn ha)"
+  },
+  "qa": [
+    {"qa_id": "q1", "question": "Bảng trên thể hiện nội dung gì?", "answer": "Bảng trên thể hiện diện tích lúa ở các vùng của nước ta, năm 2021.", "instruction": "Cho bảng số liệu: DIỆN TÍCH LÚA Ở CÁC VÙNG CỦA NƯỚC TA, NĂM 2021."},
+    {"qa_id": "q2", "question": "Năm 2021, diện tích lúa ở vùng Đồng bằng sông Hồng là bao nhiêu nghìn ha?", "answer": "970,3 nghìn ha.", "instruction": "Tìm giá trị tại hàng 'Đồng bằng sông Hồng', cột 'Diện tích': 970,3."},
+    {"qa_id": "q3", "question": "Năm 2021, diện tích lúa ở vùng Tây Nguyên là bao nhiêu nghìn ha?", "answer": "250,2 nghìn ha.", "instruction": "Tìm giá trị tại hàng 'Tây Nguyên', cột 'Diện tích': 250,2."},
+    {"qa_id": "q4", "question": "Năm 2021, diện tích lúa vùng Bắc Trung Bộ và Duyên hải Nam Trung Bộ cao hơn vùng Trung du và miền núi Bắc Bộ bao nhiêu nghìn ha?", "answer": "Cao hơn 536,5 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Bắc Trung Bộ và Duyên hải Nam Trung Bộ' là 1198,7 và 'Trung du và miền núi Bắc Bộ' là 662,2: 1198,7 > 662,2, 1198,7 - 662,2 = 536,5 (Cao hơn)."},
+    {"qa_id": "q5", "question": "Năm 2021, diện tích lúa vùng Đồng bằng sông Cửu Long cao hơn vùng Đông Nam Bộ bao nhiêu nghìn ha?", "answer": "Cao hơn 3639,7 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Đồng bằng sông Cửu Long' là 3898,6 và 'Đông Nam Bộ' là 258,9: 3898,6 > 258,9, 3898,6 - 258,9 = 3639,7 (Cao hơn)."},
+    {"qa_id": "q6", "question": "Diện tích lúa vùng Trung du và miền núi Bắc Bộ có cao hơn hay thấp hơn vùng Đồng bằng sông Hồng?", "answer": "Thấp hơn 308,1 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Trung du và miền núi Bắc Bộ' là 662,2 và 'Đồng bằng sông Hồng' là 970,3: 662,2 < 970,3, 970,3 - 662,2 = 308,1 (Thấp hơn)."},
+    {"qa_id": "q7", "question": "Diện tích lúa vùng Đông Nam Bộ có cao hơn hay thấp hơn vùng Tây Nguyên?", "answer": "Cao hơn 8,7 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Đông Nam Bộ' là 258,9 và 'Tây Nguyên' là 250,2: 258,9 > 250,2, 258,9 - 250,2 = 8,7 (Cao hơn)."},
+    {"qa_id": "q8", "question": "Chênh lệch diện tích lúa vùng Đồng bằng sông Hồng và vùng Trung du và miền núi Bắc Bộ năm 2021 là bao nhiêu nghìn ha?", "answer": "308,1 nghìn ha.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Đồng bằng sông Hồng' là 970,3 và 'Trung du và miền núi Bắc Bộ' là 662,2: |970,3 - 662,2| = 308,1."},
+    {"qa_id": "q9", "question": "Chênh lệch diện tích lúa vùng Đồng bằng sông Cửu Long và vùng Bắc Trung Bộ và Duyên hải Nam Trung Bộ năm 2021 là bao nhiêu nghìn ha?", "answer": "2699,9 nghìn ha.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Đồng bằng sông Cửu Long' là 3898,6 và 'Bắc Trung Bộ và Duyên hải Nam Trung Bộ' là 1198,7: |3898,6 - 1198,7| = 2699,9."},
+    {"qa_id": "q10", "question": "Tổng diện tích lúa vùng Tây Nguyên và Đông Nam Bộ năm 2021 là bao nhiêu nghìn ha?", "answer": "509,1 nghìn ha.", "instruction": "Tính tổng giá trị tại hàng 'Tây Nguyên' là 250,2 và 'Đông Nam Bộ' là 258,9: 250,2 + 258,9 = 509,1."},
+    {"qa_id": "q11", "question": "Tính trung bình diện tích lúa ở vùng Đồng bằng sông Hồng, Trung du và miền núi Bắc Bộ và Tây Nguyên năm 2021 là bao nhiêu nghìn ha?", "answer": "627,57 nghìn ha.", "instruction": "Tính trung bình giá trị tại hàng 'Đồng bằng sông Hồng', 'Trung du và miền núi Bắc Bộ' và 'Tây Nguyên' năm 2021: (970,3 + 662,2 + 250,2) / 3 = 627,57."},
+    {"qa_id": "q12", "question": "Tỉ lệ phần trăm diện tích lúa vùng Đồng bằng sông Cửu Long chiếm bao nhiêu phần trăm trong tổng diện tích lúa của các vùng năm 2021?", "answer": "53,85%.", "instruction": "Tính phần trăm diện tích vùng 'Đồng bằng sông Cửu Long' so với tổng diện tích tất cả các vùng: (3898,6 / (970,3+662,2+1198,7+250,2+258,9+3898,6)) * 100 ≈ 53,85%."},
+    {"qa_id": "q13", "question": "Tỉ lệ phần trăm diện tích lúa vùng Trung du và miền núi Bắc Bộ chiếm bao nhiêu phần trăm trong tổng diện tích lúa của các vùng năm 2021?", "answer": "9,14%.", "instruction": "Tính phần trăm diện tích vùng 'Trung du và miền núi Bắc Bộ' so với tổng diện tích tất cả các vùng: (662,2 / (970,3+662,2+1198,7+250,2+258,9+3898,6)) * 100 ≈ 9,14%."},
+    {"qa_id": "q14", "question": "Năm 2021, diện tích lúa vùng Bắc Trung Bộ và Duyên hải Nam Trung Bộ có cao hơn hay thấp hơn vùng Đồng bằng sông Hồng?", "answer": "Cao hơn 228,4 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Bắc Trung Bộ và Duyên hải Nam Trung Bộ' là 1198,7 và 'Đồng bằng sông Hồng' là 970,3: 1198,7 > 970,3, 1198,7 - 970,3 = 228,4 (Cao hơn)."},
+    {"qa_id": "q15", "question": "Năm 2021, diện tích lúa vùng Đông Nam Bộ có cao hơn hay thấp hơn vùng Trung du và miền núi Bắc Bộ?", "answer": "Thấp hơn 403,3 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Đông Nam Bộ' là 258,9 và 'Trung du và miền núi Bắc Bộ' là 662,2: 258,9 < 662,2, 662,2 - 258,9 = 403,3 (Thấp hơn)."},
+    {"qa_id": "q16", "question": "Năm 2021, diện tích lúa vùng Tây Nguyên có cao hơn hay thấp hơn vùng Trung du và miền núi Bắc Bộ?", "answer": "Thấp hơn 412,0 nghìn ha.", "instruction": "So sánh giá trị tại hàng 'Tây Nguyên' là 250,2 và 'Trung du và miền núi Bắc Bộ' là 662,2: 250,2 < 662,2, 662,2 - 250,2 = 412,0 (Thấp hơn)."},
+    {"qa_id": "q17", "question": "Tổng diện tích lúa của 3 vùng có diện tích lớn nhất là bao nhiêu nghìn ha?", "answer": "6067,6 nghìn ha.", "instruction": "Tìm ba vùng có diện tích lớn nhất: Đồng bằng sông Cửu Long (3898,6), Bắc Trung Bộ và Duyên hải Nam Trung Bộ (1198,7), Đồng bằng sông Hồng (970,3). Tổng của chúng là: 3898,6 + 1198,7 + 970,3 = 6067,6."},
+    {"qa_id": "q18", "question": "Vùng có diện tích lúa cao nhất là vùng nào?", "answer": "Đồng bằng sông Cửu Long.", "instruction": "Tìm vùng có diện tích lớn nhất bằng cách so sánh các giá trị: 970,3; 662,2; 1198,7; 250,2; 258,9; 3898,6. Giá trị lớn nhất là 3898,6, tương ứng với vùng Đồng bằng sông Cửu Long."}
+  ]
+}

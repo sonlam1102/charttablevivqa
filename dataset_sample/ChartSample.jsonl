@@ -1,0 +1,172 @@
+{
+  "document_id": "0043",
+  "image_info": {
+    "image_name": "0043.jpg",
+    "chart_type": "pie_chart",
+    "metadata": {
+      "title": "Diện tích lúa phân theo mùa vụ của nước ta, năm 2019 và 2021",
+      "x_axis_label": "Năm",
+      "y_axis_label": "Diện tích (%)"
+    },
+    "caption": "Biểu đồ thể hiện diện tích lúa phân theo mùa vụ của nước ta trong năm 2019 và 2021."
+  },
+  "data": [
+    ["Năm", "Đông xuân (%)", "Hè thu và thu đông (%)", "Mùa (%)"],
+    ["2019", "41,8", "9,1", "53,9"],
+    ["2021", "41,6", "36,9", "21,5"]
+  ],
+  "data_text": "Năm 2019: Đông xuân: 41,8%, Hè thu và thu đông: 9,1%, Mùa: 53,9%. Năm 2021: Đông xuân: 41,6%, Hè thu và thu đông: 36,9%, Mùa: 21,5%.",
+  "qa": [
+    { "qa_id": "q1", "question": "Tỉ lệ diện tích lúa vụ đông xuân năm 2019 là bao nhiêu phần trăm?", "answer": "41,8%", "instruction": "Tìm giá trị của khu vực 'Đông xuân' tại Năm '2019' là 41,8." },
+    { "qa_id": "q2", "question": "Diện tích lúa vụ mùa Năm 2021 cao hơn hay thấp hơn so với Năm 2019?", "answer": "Thấp hơn", "instruction": "So sánh giá trị của khu vực 'Mùa' tại Năm '2021' là 21,5 và Năm '2019' là 53,9: 21,5 < 53,9 (Thấp hơn)." },
+    { "qa_id": "q3", "question": "Tỉ lệ diện tích lúa vụ hè thu và thu đông Năm 2021 là bao nhiêu phần trăm?", "answer": "36,9%", "instruction": "Tìm giá trị của khu vực 'Hè thu và thu đông' tại Năm '2021' là 36,9." },
+    { "qa_id": "q4", "question": "Mùa vụ nào có sự suy giảm diện tích lớn nhất từ năm 2019 đến năm 2021?", "answer": "Mùa", "instruction": "Tính chênh lệch giảm của từng mùa vụ từ Năm '2019' đến Năm '2021': Đông xuân: 41,8 - 41,6 = 0,2. Hè thu và thu đông: 9,1 - 36,9 = -27,8. Mùa: 53,9 - 21,5 = 32,4. Sự suy giảm lớn nhất là 32,4 của Mùa." },
+    { "qa_id": "q5", "question": "Năm nào diện tích lúa vụ mùa chiếm tỉ lệ cao hơn?", "answer": "Năm 2019", "instruction": "So sánh giá trị của khu vực 'Mùa' tại Năm '2019' là 53,9 và Năm '2021' là 21,5: 53,9 > 21,5 (Năm 2019 cao hơn)." },
+    { "qa_id": "q6", "question": "Năm nào có sự phân bố diện tích lúa giữa các vụ cân đối hơn?", "answer": "Năm 2021", "instruction": "So sánh sự chênh lệch giữa các vụ trong từng năm. Năm 2019: chênh lệch lớn (41,8, 9,1, 53,9). Năm 2021: chênh lệch nhỏ hơn (41,6, 36,9, 21,5). Năm 2021 có sự phân bố cân đối hơn." },
+    { "qa_id": "q7", "question": "Tỉ lệ diện tích lúa vụ đông xuân năm 2021 là bao nhiêu phần trăm?", "answer": "41,6%", "instruction": "Tìm giá trị của khu vực 'Đông xuân' tại Năm '2021' là 41,6." },
+    { "qa_id": "q8", "question": "Tổng tỉ lệ diện tích lúa vụ hè thu, thu đông và đông xuân năm 2021 là bao nhiêu phần trăm?", "answer": "78,5%", "instruction": "Cộng giá trị của khu vực 'Hè thu và thu đông' là 36,9 và 'Đông xuân' là 41,6 tại Năm '2021': 36,9 + 41,6 = 78,5." },
+    { "qa_id": "q9", "question": "Tỉ lệ diện tích lúa vụ hè thu và thu đông có tăng hay giảm từ năm 2019 đến năm 2021?", "answer": "Tăng", "instruction": "So sánh giá trị của khu vực 'Hè thu và thu đông' tại Năm '2019' là 9,1 và Năm '2021' là 36,9: 36,9 > 9,1 (Tăng)." },
+    { "qa_id": "q10", "question": "Sự chênh lệch về tỉ lệ diện tích lúa vụ đông xuân giữa năm 2019 và năm 2021 là bao nhiêu?", "answer": "0,2%", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Đông xuân' tại Năm '2019' là 41,8 và 'Đông xuân' tại Năm '2021' là 41,6: |41,8 - 41,6| = 0,2." },
+    { "qa_id": "q11", "question": "Năm nào có tỉ lệ diện tích lúa vụ hè thu và thu đông cao hơn?", "answer": "Năm 2021", "instruction": "So sánh giá trị của khu vực 'Hè thu và thu đông' tại Năm '2019' là 9,1 và Năm '2021' là 36,9: 36,9 > 9,1 (Năm 2021 cao hơn)." },
+    { "qa_id": "q12", "question": "Tỉ lệ diện tích lúa vụ hè thu và thu đông năm 2021 có chiếm tỉ lệ lớn hơn 20% không?", "answer": "Có", "instruction": "So sánh giá trị của khu vực 'Hè thu và thu đông' tại Năm '2021' là 36,9 với 20: 36,9 > 20 (Có)." }
+  ]
+}
+{
+  "document_id": "0044",
+  "image_info": {
+    "image_name": "0044.jpg",
+    "chart_type": "combo_chart",
+    "metadata": {
+      "title": "Số lượng khách và doanh thu từ các cơ sở lưu trú du lịch nước ta, giai đoạn 2017 - 2021",
+      "x_axis_label": "Năm",
+      "y_axis_label": "Số lượng (Triệu lượt khách), Doanh thu (Nghìn tỷ đồng)"
+    },
+    "caption": "Biểu đồ thể hiện số lượng khách và doanh thu từ các cơ sở lưu trú du lịch nước ta từ năm 2017 đến năm 2021."
+  },
+  "data": [
+    ["Năm", "Khách quốc tế (Triệu lượt khách)", "Khách trong nước (Triệu lượt khách)", "Doanh thu của các cơ sở lưu trú (Nghìn tỷ đồng)"],
+    ["2017", "13,7", "132,8", "54,4"],
+    ["2019", "17,3", "162", "67"],
+    ["2020", "7,2", "78,1", "38,6"],
+    ["2021", "2,6", "48,9", "23,8"]
+  ],
+  "data_text": "Năm 2017: Khách quốc tế: 13,7 triệu lượt khách, Khách trong nước: 132,8 triệu lượt khách, Doanh thu của các cơ sở lưu trú: 54,4 nghìn tỷ đồng. Năm 2019: Khách quốc tế: 17,3 triệu lượt khách, Khách trong nước: 162 triệu lượt khách, Doanh thu cơ sở lưu trú: 67 nghìn tỷ đồng. Năm 2020: Khách quốc tế: 7,2 triệu lượt khách, Khách trong nước: 78,1 triệu lượt khách, Doanh thu cơ sở lưu trú: 38,6 nghìn tỷ đồng. Năm 2021: Khách quốc tế: 2,6 triệu lượt khách, Khách trong nước: 48,9 triệu lượt khách, Doanh thu cơ sở lưu trú: 23,8 nghìn tỷ đồng.",
+  "qa": [
+    { "qa_id": "q1", "question": "Số lượt khách quốc tế đến Việt Nam Năm 2017 là bao nhiêu triệu lượt khách?", "answer": "13,7 triệu lượt khách", "instruction": "Tìm giá trị của cột 'Khách quốc tế' tại Năm '2017' là 13,7." },
+    { "qa_id": "q2", "question": "Năm nào có số lượng khách nội địa cao nhất?", "answer": "Năm 2019", "instruction": "So sánh giá trị của cột 'Khách trong nước' tại các Năm để tìm giá trị cao nhất: 132,8 (2017), 162 (2019), 78,1 (2020), 48,9 (2021). Giá trị lớn nhất là 162 tại Năm 2019." },
+    { "qa_id": "q3", "question": "Doanh thu từ các cơ sở lưu trú du lịch Năm 2021 cao hơn hay thấp hơn so với Năm 2019?", "answer": "Thấp hơn", "instruction": "So sánh giá trị của 'Doanh thu cơ sở lưu trú' tại Năm '2021' là 23,8 và Năm '2019' là 67: 23,8 < 67 (Thấp hơn)." },
+    { "qa_id": "q4", "question": "Tổng số lượt khách quốc tế và nội địa của Việt Nam Năm 2019 là bao nhiêu triệu lượt khách?", "answer": "179,3 triệu lượt khách", "instruction": "Cộng giá trị của cột 'Khách quốc tế' tại Năm '2019' là 17,3 và cột 'Khách trong nước' tại Năm '2019' là 162: 17,3 + 162 = 179,3." },
+    { "qa_id": "q5", "question": "Sự chênh lệch về số lượt khách quốc tế giữa Năm 2019 và Năm 2021 là bao nhiêu triệu lượt khách?", "answer": "14,7 triệu lượt khách", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa cột 'Khách quốc tế' tại Năm '2019' là 17,3 và cột 'Khách quốc tế' tại Năm '2021' là 2,6: |17,3 - 2,6| = 14,7." },
+    { "qa_id": "q6", "question": "Số lượt khách quốc tế Năm 2021 tăng hay giảm bao nhiêu phần trăm so với Năm 2019?", "answer": "Giảm 84,39%", "instruction": "Tính phần trăm thay đổi bằng cách lấy (giá trị của cột 'Khách quốc tế' tại Năm '2021' là 2,6 trừ giá trị tại Năm '2019' là 17,3) chia cho giá trị tại Năm '2019' là 17,3, rồi nhân với 100: ((2,6 - 17,3) / 17,3) * 100 = -84,39. (Giảm)." },
+    { "qa_id": "q7", "question": "Doanh thu từ các cơ sở lưu trú du lịch Năm 2019 cao hơn Năm 2021 bao nhiêu lần?", "answer": "≈ 2,82 lần", "instruction": "Lấy giá trị của 'Doanh thu cơ sở lưu trú' tại Năm '2019' là 67 chia cho giá trị tại Năm '2021' là 23,8: 67 / 23,8 = 2,82." },
+    { "qa_id": "q8", "question": "Năm nào có mức giảm doanh thu từ các cơ sở lưu trú du lịch lớn nhất?", "answer": "Năm 2020", "instruction": "Tính mức giảm của 'Doanh thu cơ sở lưu trú' giữa các năm liền kề: Từ 2017-2019: tăng; Từ 2019-2020: 67 - 38,6 = 28,4; Từ 2020-2021: 38,6 - 23,8 = 14,8. Mức giảm lớn nhất là 28,4 vào Năm 2020 (so với năm trước đó)." },
+    { "qa_id": "q9", "question": "Sự chênh lệch về doanh thu từ các cơ sở lưu trú giữa Năm 2019 và Năm 2021 là bao nhiêu nghìn tỷ đồng?", "answer": "43,2 nghìn tỷ đồng", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Doanh thu cơ sở lưu trú' tại Năm '2019' là 67 và 'Doanh thu cơ sở lưu trú' tại Năm '2021' là 23,8: |67 - 23,8| = 43,2." },
+    { "qa_id": "q10", "question": "Số lượt khách trong nước Năm 2020 tăng hay giảm bao nhiêu phần trăm so với Năm 2019?", "answer": "Giảm 51,79%", "instruction": "Tính phần trăm thay đổi bằng cách lấy (giá trị của cột 'Khách trong nước' tại Năm '2020' là 78,1 trừ giá trị tại Năm '2019' là 162) chia cho giá trị tại Năm '2019' là 162, rồi nhân với 100: ((78,1 - 162) / 162) * 100 = -51,79. (Giảm)." },
+    { "qa_id": "q11", "question": "Số lượt khách quốc tế Năm 2019 có cao hơn số lượt khách quốc tế Năm 2017 không?", "answer": "Có", "instruction": "So sánh giá trị của cột 'Khách quốc tế' tại Năm '2019' là 17,3 và Năm '2017' là 13,7: 17,3 > 13,7 (Có)." },
+    { "qa_id": "q12", "question": "Doanh thu từ các cơ sở lưu trú du lịch Năm 2021 có vượt mức 50 nghìn tỷ đồng không?", "answer": "Không", "instruction": "So sánh giá trị của 'Doanh thu cơ sở lưu trú' tại Năm '2021' là 23,8 với 50: 23,8 < 50 (Không vượt mức)." },
+    { "qa_id": "q13", "question": "Năm nào có mức chênh lệch giữa số lượt khách quốc tế và khách trong nước lớn nhất?", "answer": "Năm 2019", "instruction": "Tính chênh lệch tuyệt đối giữa cột 'Khách quốc tế' và cột 'Khách trong nước' cho từng Năm: Năm 2017: |13,7 - 132,8| = 119,1. Năm 2019: |17,3 - 162| = 144,7. Năm 2020: |7,2 - 78,1| = 70,9. Năm 2021: |2,6 - 48,9| = 46,3. Chênh lệch lớn nhất là 144,7 tại Năm 2019." },
+    { "qa_id": "q14", "question": "Doanh thu của các cơ sở lưu trú du lịch trong các năm 2017, 2019 và 2021 là bao nhiêu nghìn tỷ đồng?", "answer": "145,2 nghìn tỷ đồng", "instruction": "Cộng giá trị của 'Doanh thu cơ sở lưu trú' tại Năm '2017' là 54,4, Năm '2019' là 67 và Năm '2021' là 23,8: 54,4 + 67 + 23,8 = 145,2." }
+  ]
+}
+{
+ "document_id": "0059",
+ "image_info": {
+  "image_name": "0059.jpg",
+  "chart_type": "pie_chart",
+  "metadata": {
+   "title": "Tỉ trọng GDP của một số khu vực kinh tế nước ta năm 2010 và 2021",
+   "x_axis_label": "Năm",
+   "y_axis_label": "Tỉ lệ (%)"
+  },
+  "caption": "Biểu đồ thể hiện tỉ trọng GDP của một số khu vực kinh tế nước ta trong năm 2010 và 2021."
+ },
+ "data": [
+  ["Năm", "Kinh tế Nhà nước (%)", "Kinh tế có vốn đầu tư nước ngoài (%)", "Kinh tế ngoài Nhà nước (%)"],
+  ["2010", "33,6", "17,3", "49,1"],
+  ["2021", "23,2", "22,0", "54,8"]
+ ],
+ "data_text": "Năm 2010: Kinh tế Nhà nước: 33,6%, Kinh tế có vốn đầu tư nước ngoài: 17,3%, Kinh tế ngoài Nhà nước: 49,1%. Năm 2021: Kinh tế Nhà nước: 23,2%, Kinh tế có vốn đầu tư nước ngoài: 22,0%, Kinh tế ngoài Nhà nước: 54,8%.",
+ "qa": [
+  { "qa_id": "q1", "question": "Tỉ lệ GDP của khu vực kinh tế Nhà nước Năm 2010 là bao nhiêu phần trăm?", "answer": "33,6%", "instruction": "Tìm giá trị của khu vực 'Kinh tế Nhà nước' tại Năm '2010' là 33,6." },
+  { "qa_id": "q2", "question": "Năm 2021, khu vực kinh tế ngoài Nhà nước chiếm bao nhiêu phần trăm GDP?", "answer": "54,8%", "instruction": "Tìm giá trị của khu vực 'Kinh tế ngoài Nhà nước' tại Năm '2021' là 54,8." },
+  { "qa_id": "q3", "question": "Theo số liệu, tỉ lệ kinh tế có vốn đầu tư nước ngoài trong GDP Năm 2010 là bao nhiêu?", "answer": "17,3%", "instruction": "Tìm giá trị của khu vực 'Kinh tế có vốn đầu tư nước ngoài' tại Năm '2010' là 17,3." },
+  { "qa_id": "q4", "question": "Tỉ trọng GDP của khu vực kinh tế có vốn đầu tư nước ngoài Năm 2021 là bao nhiêu phần trăm?", "answer": "22,0%", "instruction": "Tìm giá trị của khu vực 'Kinh tế có vốn đầu tư nước ngoài' tại Năm '2021' là 22,0." },
+  { "qa_id": "q5", "question": "Tổng tỉ trọng GDP của kinh tế Nhà nước và kinh tế ngoài Nhà nước Năm 2010 là bao nhiêu phần trăm?", "answer": "82,7%", "instruction": "Cộng giá trị của khu vực 'Kinh tế Nhà nước' tại Năm '2010' là 33,6 và 'Kinh tế ngoài Nhà nước' tại Năm '2010' là 49,1: 33,6 + 49,1 = 82,7." },
+  { "qa_id": "q6", "question": "Tổng tỉ trọng GDP của kinh tế Nhà nước và kinh tế ngoài Nhà nước Năm 2021 là bao nhiêu phần trăm?", "answer": "78,0%", "instruction": "Cộng giá trị của khu vực 'Kinh tế Nhà nước' tại Năm '2021' là 23,2 và 'Kinh tế ngoài Nhà nước' tại Năm '2021' là 54,8: 23,2 + 54,8 = 78,0." },
+  { "qa_id": "q7", "question": "Năm 2010 hay Năm 2021 có tỉ lệ GDP của khu vực kinh tế Nhà nước cao hơn?", "answer": "Năm 2010, với 33,6%", "instruction": "So sánh giá trị của khu vực 'Kinh tế Nhà nước' tại Năm '2010' là 33,6 và Năm '2021' là 23,2: 33,6 > 23,2. Năm 2010 có tỉ lệ cao hơn với 33,6%." },
+  { "qa_id": "q8", "question": "Tỉ lệ GDP của kinh tế có vốn đầu tư nước ngoài Năm 2021 tăng hay giảm bao nhiêu phần trăm so với Năm 2010?", "answer": "Tăng 4,7%", "instruction": "So sánh giá trị của 'Kinh tế có vốn đầu tư nước ngoài' tại Năm '2021' là 22,0 và Năm '2010' là 17,3: 22,0 > 17,3, 22,0 - 17,3 = 4,7 (Tăng)." },
+  { "qa_id": "q9", "question": "Khu vực kinh tế ngoài Nhà nước có tỉ trọng GDP tăng hay giảm bao nhiêu phần trăm từ Năm 2010 đến Năm 2021?", "answer": "Tăng 5,7%", "instruction": "So sánh giá trị của 'Kinh tế ngoài Nhà nước' tại Năm '2021' là 54,8 và Năm '2010' là 49,1: 54,8 > 49,1, 54,8 - 49,1 = 5,7 (Tăng)." },
+  { "qa_id": "q10", "question": "Sự chênh lệch tỉ trọng GDP giữa kinh tế Nhà nước và kinh tế ngoài Nhà nước Năm 2010 là bao nhiêu phần trăm?", "answer": "15,5%", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Kinh tế Nhà nước' tại Năm '2010' là 33,6 và 'Kinh tế ngoài Nhà nước' tại Năm '2010' là 49,1: |33,6 - 49,1| = 15,5." },
+  { "qa_id": "q11", "question": "Sự chênh lệch tỉ trọng GDP giữa kinh tế Nhà nước và kinh tế ngoài Nhà nước Năm 2021 là bao nhiêu phần trăm?", "answer": "31,6%", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa 'Kinh tế Nhà nước' tại Năm '2021' là 23,2 và 'Kinh tế ngoài Nhà nước' tại Năm '2021' là 54,8: |23,2 - 54,8| = 31,6." },
+  { "qa_id": "q12", "question": "Tỉ lệ GDP của kinh tế có vốn đầu tư nước ngoài tăng hay giảm bao nhiêu phần trăm từ Năm 2010 đến Năm 2021?", "answer": "Tăng 4,7%", "instruction": "So sánh giá trị của 'Kinh tế có vốn đầu tư nước ngoài' tại Năm '2021' là 22,0 và Năm '2010' là 17,3: 22,0 > 17,3, 22,0 - 17,3 = 4,7 (Tăng)." }
+ ]
+}
+{
+ "document_id": "0062",
+ "image_info": {
+  "image_name": "0062.jpg",
+  "chart_type": "combo_chart",
+  "metadata": {
+   "title": "Sản lượng điều của Việt Nam, giai đoạn 2017 - 2021",
+   "x_axis_label": "Năm",
+   "y_axis_label": "Sản lượng (Nghìn tấn)"
+  },
+  "caption": "Biểu đồ thể hiện sản lượng điều của Việt Nam từ năm 2017 đến năm 2021."
+ },
+ "data_text": "Năm 2017: Diện tích: 297,5 nghìn ha, Sản lượng: 212,3 nghìn tấn. Năm 2019: Diện tích: 295 nghìn ha, Sản lượng: 283,3 nghìn tấn. Năm 2020: Diện tích: 302,4 nghìn ha, Sản lượng: 348,5 nghìn tấn. Năm 2021: Diện tích: 314,4 nghìn ha, Sản lượng: 399,3 nghìn tấn.",
+ "data": [
+  ["Năm", "Diện tích (Nghìn ha)", "Sản lượng (Nghìn tấn)"],
+  ["2017", "297,5", "212,3"],
+  ["2019", "295", "283,3"],
+  ["2020", "302,4", "348,5"],
+  ["2021", "314,4", "399,3"]
+ ],
+ "qa": [
+  { "qa_id": "q1", "question": "Diện tích trồng điều của Việt Nam vào Năm 2017 là bao nhiêu nghìn ha?", "answer": "297,5 nghìn ha.", "instruction": "Tìm giá trị của cột 'Diện tích' tại Năm '2017' là 297,5." },
+  { "qa_id": "q2", "question": "Năm 2021, sản lượng điều đạt bao nhiêu nghìn tấn?", "answer": "399,3 nghìn tấn.", "instruction": "Tìm giá trị của đường 'Sản lượng' tại Năm '2021' là 399,3." },
+  { "qa_id": "q3", "question": "Theo số liệu, diện tích trồng điều Năm 2020 là bao nhiêu?", "answer": "302,4 nghìn ha.", "instruction": "Tìm giá trị của cột 'Diện tích' tại Năm '2020' là 302,4." },
+  { "qa_id": "q4", "question": "Sản lượng điều Năm 2019 đạt bao nhiêu nghìn tấn?", "answer": "283,3 nghìn tấn.", "instruction": "Tìm giá trị của đường 'Sản lượng' tại Năm '2019' là 283,3." },
+  { "qa_id": "q5", "question": "Trung bình sản lượng điều của Việt Nam trong giai đoạn 2017 - 2021 đạt bao nhiêu nghìn tấn?", "answer": "310,85 nghìn tấn.", "instruction": "Tính trung bình các giá trị của đường 'Sản lượng' từ Năm '2017' đến Năm '2021': (212,3 + 283,3 + 348,5 + 399,3) / 4 = 310,85." },
+  { "qa_id": "q6", "question": "Tổng sản lượng điều của Việt Nam trong giai đoạn 2017 - 2021 là bao nhiêu nghìn tấn?", "answer": "1243,4 nghìn tấn.", "instruction": "Cộng các giá trị của đường 'Sản lượng' từ Năm '2017' đến Năm '2021': 212,3 + 283,3 + 348,5 + 399,3 = 1243,4." },
+  { "qa_id": "q7", "question": "Tổng diện tích trồng điều của Việt Nam trong Năm 2021 là bao nhiêu nghìn ha?", "answer": "314,4 nghìn ha.", "instruction": "Tìm giá trị của cột 'Diện tích' tại Năm '2021' là 314,4." },
+  { "qa_id": "q8", "question": "Giữa năm 2017 và năm 2021, năm nào có diện tích trồng điều lớn hơn?", "answer": "Năm 2021, với 314,4 nghìn ha.", "instruction": "So sánh giá trị của cột 'Diện tích' tại Năm '2017' là 297,5 và Năm '2021' là 314,4: 314,4 > 297,5. (Năm 2021 có diện tích lớn hơn)." },
+  { "qa_id": "q9", "question": "Sản lượng điều từ Năm 2017 đến Năm 2021 tăng hay giảm bao nhiêu nghìn tấn?", "answer": "Tăng 187 nghìn tấn.", "instruction": "So sánh giá trị của đường 'Sản lượng' tại Năm '2021' là 399,3 và Năm '2017' là 212,3: 399,3 > 212,3, 399,3 - 212,3 = 187 (Tăng)." },
+  { "qa_id": "q10", "question": "Năm 2020, sản lượng điều nhiều hơn hay ít hơn so với năm 2017 bao nhiêu nghìn tấn?", "answer": "Nhiều hơn 136,2 nghìn tấn.", "instruction": "So sánh giá trị của đường 'Sản lượng' tại Năm '2020' là 348,5 và Năm '2017' là 212,3: 348,5 > 212,3, 348,5 - 212,3 = 136,2 (Nhiều hơn)." },
+  { "qa_id": "q11", "question": "Giai đoạn nào có mức tăng sản lượng điều lớn nhất?", "answer": "Năm 2017 - Năm 2019, tăng 71 nghìn tấn.", "instruction": "Tính mức tăng sản lượng giữa các giai đoạn: Năm 2017-2019: 283,3 - 212,3 = 71. Năm 2019-2020: 348,5 - 283,3 = 65,2. Năm 2020-2021: 399,3 - 348,5 = 50,8. Mức tăng lớn nhất là 71 tại Năm 2017 - Năm 2019." },
+  { "qa_id": "q12", "question": "Sản lượng điều tăng hay giảm bao nhiêu phần trăm từ Năm 2017 đến Năm 2021?", "answer": "Tăng 88,08%." , "instruction": "Tính phần trăm thay đổi bằng cách lấy (giá trị của đường 'Sản lượng' tại Năm '2021' là 399,3 trừ giá trị tại Năm '2017' là 212,3) chia cho giá trị tại Năm '2017' là 212,3, rồi nhân với 100: ((399,3 - 212,3) / 212,3) * 100 = 88,08 (Tăng)." }
+ ]
+}
+{
+ "document_id": "0095",
+ "image_info": {
+  "image_name": "0095.jpg",
+  "chart_type": "grouped_bar_chart",
+  "metadata": {
+   "title": "Sản lượng khu vực Trung du và miền núi Bắc Bộ, Tây Nguyên, Đông Nam Bộ, giai đoạn 2017 - 2021",
+   "x_axis_label": "Năm",
+   "y_axis_label": "Sản lượng (Nghìn tấn)"
+  },
+  "caption": "Biểu đồ thể hiện sự thay đổi sản lượng của ba khu vực Trung du và miền núi Bắc Bộ, Tây Nguyên và Đông Nam Bộ trong các năm Năm 2017, Năm 2020 và Năm 2021."
+ },
+ "data": [
+  ["Năm", "Trung du và miền núi Bắc Bộ (Nghìn tấn)", "Tây Nguyên (Nghìn tấn)", "Đông Nam Bộ (Nghìn tấn)"],
+  ["2017", "3336,4", "1315,6", "1396,7"],
+  ["2020", "3391,2", "1413,7", "1401,9"],
+  ["2021", "3426,5", "1466,3", "1411,8"]
+ ],
+ "data_text": "Năm 2017: Trung du và miền núi Bắc Bộ: 3336,4 nghìn tấn, Tây Nguyên: 1315,6 nghìn tấn, Đông Nam Bộ: 1396,7 nghìn tấn. Năm 2020: Trung du và miền núi Bắc Bộ: 3391,2 nghìn tấn, Tây Nguyên: 1413,7 nghìn tấn, Đông Nam Bộ: 1401,9 nghìn tấn. Năm 2021: Trung du và miền núi Bắc Bộ: 3426,5 nghìn tấn, Tây Nguyên: 1466,3 nghìn tấn, Đông Nam Bộ: 1411,8 nghìn tấn.",
+ "qa": [
+  { "qa_id": "q1", "question": "Sản lượng của khu vực Trung du và miền núi Bắc Bộ vào Năm 2017 là bao nhiêu?", "answer": "3336,4 nghìn tấn.", "instruction": "Tìm giá trị của cột 'Trung du và miền núi Bắc Bộ' tại Năm '2017' là 3336,4." },
+  { "qa_id": "q2", "question": "Biểu đồ trên thể hiện nội dung gì?", "answer": "Biểu đồ trên thể hiện nội dung Sản lượng khu vực Trung du và miền núi Bắc Bộ, Tây Nguyên, Đông Nam Bộ, giai đoạn 2017 - 2021.", "instruction": "Sản lượng khu vực Trung du và miền núi Bắc Bộ, Tây Nguyên, Đông Nam Bộ, giai đoạn 2017 - 2021" },
+  { "qa_id": "q3", "question": "Khu vực nào có sản lượng cao nhất trong cả ba năm?", "answer": "Trung du và miền núi Bắc Bộ.", "instruction": "So sánh giá trị cột 'Trung du và miền núi Bắc Bộ', 'Tây Nguyên' và 'Đông Nam Bộ' cho từng năm. Năm 2017: Trung du và miền núi Bắc Bộ (3336,4) > Tây Nguyên (1315,6), Trung du và miền núi Bắc Bộ (3336,4) > Đông Nam Bộ (1396,7). Năm 2020: Trung du và miền núi Bắc Bộ (3391,2) > Tây Nguyên (1413,7), Trung du và miền núi Bắc Bộ (3391,2) > Đông Nam Bộ (1401,9). Năm 2021: Trung du và miền núi Bắc Bộ (3426,5) > Tây Nguyên (1466,3), Trung du và miền núi Bắc Bộ (3426,5) > Đông Nam Bộ (1411,8). Khu vực Trung du và miền núi Bắc Bộ có sản lượng cao nhất trong cả ba năm." },
+  { "qa_id": "q4", "question": "Sản lượng của Tây Nguyên Năm 2021 so với Năm 2017 tăng hay giảm bao nhiêu nghìn tấn?", "answer": "Tăng 150,7 nghìn tấn.", "instruction": "So sánh giá trị của cột 'Tây Nguyên' tại Năm '2021' là 1466,3 và Năm '2017' là 1315,6: 1466,3 > 1315,6, 1466,3 - 1315,6 = 150,7 (Tăng)." },
+  { "qa_id": "q5", "question": "Sản lượng Đông Nam Bộ năm 2021 có cao hơn hay thấp hơn so với năm 2017?", "answer": "Cao hơn.", "instruction": "So sánh giá trị của cột 'Đông Nam Bộ' tại Năm '2021' là 1411,8 và Năm '2017' là 1396,7: 1411,8 > 1396,7 (Cao hơn)." },
+  { "qa_id": "q6", "question": "Sản lượng của Trung du và miền núi Bắc Bộ trong giai đoạn 2017 - 2021 tăng hay giảm?", "answer": "Tăng.", "instruction": "So sánh giá trị của cột 'Trung du và miền núi Bắc Bộ' tại Năm '2017' là 3336,4 và Năm '2021' là 3426,5: 3426,5 > 3336,4 (Tăng)." },
+  { "qa_id": "q7", "question": "Sản lượng của khu vực Tây Nguyên Năm 2021 có cao hơn Năm 2020 không?", "answer": "Có.", "instruction": "So sánh giá trị của cột 'Tây Nguyên' tại Năm '2021' là 1466,3 và Năm '2020' là 1413,7: 1466,3 > 1413,7 (Có)." },
+  { "qa_id": "q8", "question": "Trong ba năm Năm 2017, Năm 2020, Năm 2021, Năm nào khu vực Đông Nam Bộ có sản lượng thấp nhất?", "answer": "Năm 2017.", "instruction": "So sánh giá trị của cột 'Đông Nam Bộ' tại các năm để tìm giá trị thấp nhất: 1396,7 (2017), 1401,9 (2020), 1411,8 (2021). Giá trị thấp nhất là 1396,7 tại Năm 2017." },
+  { "qa_id": "q9", "question": "Tổng sản lượng của Tây Nguyên trong giai đoạn 2017-2021 là bao nhiêu nghìn tấn?", "answer": "4195,6 nghìn tấn.", "instruction": "Cộng các giá trị của cột 'Tây Nguyên' từ Năm '2017' đến Năm '2021': 1315,6 + 1413,7 + 1466,3 = 4195,6." },
+  { "qa_id": "q10", "question": "Sản lượng của khu vực Trung du và miền núi Bắc Bộ từ Năm 2017 đến Năm 2021 tăng hay giảm bao nhiêu?", "answer": "Tăng 90,1 nghìn tấn.", "instruction": "So sánh giá trị của cột 'Trung du và miền núi Bắc Bộ' tại Năm '2021' là 3426,5 và Năm '2017' là 3336,4: 3426,5 > 3336,4, 3426,5 - 3336,4 = 90,1 (Tăng)." },
+  { "qa_id": "q11", "question": "Chênh lệch sản lượng giữa Tây Nguyên và Đông Nam Bộ vào Năm 2021 là bao nhiêu?", "answer": "54,5 nghìn tấn.", "instruction": "Lấy giá trị tuyệt đối của hiệu giữa cột 'Tây Nguyên' tại Năm '2021' là 1466,3 và cột 'Đông Nam Bộ' tại Năm '2021' là 1411,8: |1466,3 - 1411,8| = 54,5." },
+  { "qa_id": "q12", "question": "Sản lượng của khu vực Trung du và miền núi Bắc Bộ Năm 2021 có cao hơn gấp đôi so với Đông Nam Bộ Năm 2017 không?", "answer": "Có.", "instruction": "So sánh giá trị của cột 'Trung du và miền núi Bắc Bộ' tại Năm '2021' là 3426,5 và (giá trị của cột 'Đông Nam Bộ' tại Năm '2017' là 1396,7 x 2 = 2793,4): 3426,5 > 2793,4 (Có)." }
+ ]
+}
